@@ -24,6 +24,7 @@ install:
   - conda info -a
   - conda env create --file ml.yml
   - conda activate ml
+  - python3 -m pip freeze
 
 script:
   - pytest
