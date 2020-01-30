@@ -1,0 +1,61 @@
+# -----------------------------------------------------------------------------
+# Conda ML environment - based on Anaconda channel
+# Author: Konstantin Dobratulin <zsxoff@gmail.com>
+#
+# For create this environment run: conda env create --file ml.yml
+# For update this environment run: conda env update --file ml.yml --prune
+# For delete this environment run: conda env remove --name ml
+#
+# -----------------------------------------------------------------------------
+
+name: ml
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - anaconda::python=3.7.6
+  # ---------------------------------- Libs -----------------------------------
+  - anaconda::graphviz
+  - anaconda::imageio
+  - anaconda::matplotlib
+  - anaconda::numba
+  - anaconda::numpy
+  - anaconda::opencv
+  - anaconda::pandas
+  - anaconda::psutil
+  - anaconda::pyyaml
+  - anaconda::requests
+  - anaconda::scikit-image
+  - anaconda::scikit-learn
+  - anaconda::scipy
+  - anaconda::seaborn
+  - anaconda::statsmodels
+  - anaconda::sympy
+  - anaconda::tabulate
+  - anaconda::theano
+  - anaconda::tqdm
+  # --------------------------------- Tools -----------------------------------
+  - anaconda::Cython
+  - anaconda::ipython
+  - anaconda::jupyter
+  - anaconda::jupyterlab
+  - anaconda::notebook
+  # --------------------------- ML Additional libs ----------------------------
+  - conda-forge::catboost
+  - conda-forge::hdbscan
+  - conda-forge::lightgbm
+  - conda-forge::xgboost
+  # ----------------------------- Deep Learning -------------------------------
+  - anaconda::keras
+  - anaconda::pytorch
+  - anaconda::tensorboard
+  - anaconda::tensorflow
+  - anaconda::torchvision
+  # ------------------------------- Formatters --------------------------------
+  - conda-forge::black
+  - conda-forge::isort
+  - conda-forge::pydocstyle
+  - conda-forge::pylint
+  # ---------------------------------- pip ------------------------------------
+  - anaconda::pip
+  
