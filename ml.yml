@@ -1,5 +1,5 @@
 # -----------------------------------------------------------------------------
-# Conda ML environment - based on Anaconda channel
+# Anaconda Machine Learning Environment - based on Anaconda channel.
 # Author: Konstantin Dobratulin <zsxoff@gmail.com>
 #
 # For create this environment run: conda env create --file ml.yml
