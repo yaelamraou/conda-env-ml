@@ -7,6 +7,7 @@
 # For delete this environment run: conda env remove --name ml
 #
 # -----------------------------------------------------------------------------
+#
 
 name: ml
 channels:
@@ -40,6 +41,8 @@ dependencies:
   - anaconda::jupyter
   - anaconda::jupyterlab
   - anaconda::notebook
+  # --------------------------------- Tests -----------------------------------
+  - anaconda::pytest
   # --------------------------- ML Additional libs ----------------------------
   - conda-forge::catboost
   - conda-forge::hdbscan
@@ -58,4 +61,3 @@ dependencies:
   - conda-forge::pylint
   # ---------------------------------- pip ------------------------------------
   - anaconda::pip
-  

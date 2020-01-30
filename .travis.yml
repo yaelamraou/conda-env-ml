@@ -25,5 +25,8 @@ install:
   - conda env create --file ml.yml
   - conda activate ml
 
+script:
+  - pytest
+
 notifications:
   email: false
