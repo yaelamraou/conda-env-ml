@@ -4,7 +4,7 @@
 #
 # For create this environment run: conda env create --file ml.yml
 # For update this environment run: conda env update --file ml.yml --prune
-# For delete this environment run: conda env remove --name ml
+# For remove this environment run: conda env remove --name ml
 #
 # -----------------------------------------------------------------------------
 #
