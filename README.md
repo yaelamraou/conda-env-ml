@@ -1,5 +1,7 @@
 # Conda ML environment
 
+[![Build Status](https://travis-ci.org/zsxoff/conda_env_ml.svg?branch=master)](https://travis-ci.org/zsxoff/conda_env_ml)
+
 Conda ML machine learning environment for development and research.
 
 ## How to use it
