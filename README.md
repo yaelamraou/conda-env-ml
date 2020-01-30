@@ -1,6 +1,7 @@
 # Conda ML environment
 
 [![Build Status](https://travis-ci.org/zsxoff/conda_env_ml.svg?branch=master)](https://travis-ci.org/zsxoff/conda_env_ml)
+[![BCH compliance](https://bettercodehub.com/edge/badge/zsxoff/conda_env_ml?branch=master)](https://bettercodehub.com/)
 
 Conda ML machine learning environment for development and research.
 
