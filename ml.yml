@@ -57,6 +57,9 @@ dependencies:
   # ---------------------------- Text processing ------------------------------
   - conda-forge::langdetect
   - conda-forge::textdistance
+  # ------------------------- DICOM and medical images ------------------------
+  - conda-forge::nibabel
+  - conda-forge::pydicom
   # ------------------------------- Formatters --------------------------------
   - conda-forge::black
   - conda-forge::isort
