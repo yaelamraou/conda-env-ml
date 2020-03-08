@@ -8,6 +8,20 @@
 
 Anaconda Machine Learning Environment for development and research.
 
+## Grab this file directly
+
+Via wget:
+
+```bash
+wget https://raw.githubusercontent.com/zsxoff/conda_env_ml/master/ml.yml
+```
+
+Via curl:
+
+```bash
+curl https://raw.githubusercontent.com/zsxoff/conda_env_ml/master/ml.yml -o ml.yml
+```
+
 ## How to use it
 
 For create this environment run:
