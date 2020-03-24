@@ -52,7 +52,7 @@ dependencies:
   - anaconda::keras
   - anaconda::pytorch
   - anaconda::tensorboard
-  - anaconda::tensorflow
+  - anaconda::tensorflow-gpu
   - anaconda::torchvision
   # ---------------------------- Text processing ------------------------------
   - conda-forge::langdetect
