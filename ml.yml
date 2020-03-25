@@ -61,7 +61,9 @@ dependencies:
   - conda-forge::nibabel
   - conda-forge::pydicom
   # ------------------------------- Formatters --------------------------------
+  - conda-forge::bandit
   - conda-forge::black
+  - conda-forge::flake8
   - conda-forge::isort
   - conda-forge::pydocstyle
   - conda-forge::pylint
