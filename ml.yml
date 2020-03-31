@@ -36,13 +36,13 @@ dependencies:
   - anaconda::theano
   - anaconda::tqdm
   # --------------------------------- Tools -----------------------------------
-  - anaconda::Cython
-  - anaconda::ipython
-  - anaconda::jupyter
-  - anaconda::jupyterlab
-  - anaconda::notebook
+  - conda-forge::Cython
+  - conda-forge::ipython
+  - conda-forge::jupyter
+  - conda-forge::jupyterlab
+  - conda-forge::notebook
   # --------------------------------- Tests -----------------------------------
-  - anaconda::pytest
+  - conda-forge::pytest
   # --------------------------- ML Additional libs ----------------------------
   - conda-forge::catboost
   - conda-forge::hdbscan
@@ -68,4 +68,4 @@ dependencies:
   - conda-forge::pydocstyle
   - conda-forge::pylint
   # ---------------------------------- pip ------------------------------------
-  - anaconda::pip
+  - conda-forge::pip
