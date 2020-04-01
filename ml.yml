@@ -40,6 +40,7 @@ dependencies:
   - conda-forge::ipython
   - conda-forge::jupyter
   - conda-forge::jupyterlab
+  - conda-forge::jupytext
   - conda-forge::notebook
   # --------------------------------- Tests -----------------------------------
   - conda-forge::pytest
