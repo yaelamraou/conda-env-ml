@@ -69,4 +69,7 @@ dependencies:
   - conda-forge::pydocstyle
   - conda-forge::pylint
   # ---------------------------------- pip ------------------------------------
-  - conda-forge::pip
+  - pip
+  - pip:
+      - prospector
+      - pytype
