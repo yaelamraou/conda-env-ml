@@ -21,6 +21,7 @@ dependencies:
   - anaconda::matplotlib
   - anaconda::numba
   - anaconda::numpy
+  - anaconda::opencv
   - anaconda::pandas
   - anaconda::psutil
   - anaconda::pyyaml
@@ -34,7 +35,6 @@ dependencies:
   - anaconda::tabulate
   - anaconda::theano
   - anaconda::tqdm
-  - conda-forge::opencv
   # --------------------------------- Tools -----------------------------------
   - conda-forge::Cython
   - conda-forge::ipython
