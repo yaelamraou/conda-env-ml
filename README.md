@@ -1,6 +1,6 @@
 # Anaconda Machine Learning Environment
 
-[![Build Status](https://travis-ci.org/zsxoff/conda_env_ml.svg?branch=master)](https://travis-ci.org/zsxoff/conda_env_ml)
+[![Build Status](https://travis-ci.org/zsxoff/conda-env-ml.svg?branch=master)](https://travis-ci.org/zsxoff/conda-env-ml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Anaconda Machine Learning Environment for development and research.
@@ -10,13 +10,13 @@ Anaconda Machine Learning Environment for development and research.
 Via wget:
 
 ```bash
-wget https://raw.githubusercontent.com/zsxoff/conda_env_ml/master/ml.yml
+wget https://raw.githubusercontent.com/zsxoff/conda-env-ml/master/ml.yml
 ```
 
 Via curl:
 
 ```bash
-curl https://raw.githubusercontent.com/zsxoff/conda_env_ml/master/ml.yml -o ml.yml
+curl https://raw.githubusercontent.com/zsxoff/conda-env-ml/master/ml.yml -o ml.yml
 ```
 
 ## How to use it
@@ -41,4 +41,4 @@ conda env remove --name ml
 
 ## License
 
-See [LICENSE](<https://github.com/zsxoff/conda_env_ml/blob/master/LICENSE>) file.
+See [LICENSE](<https://github.com/zsxoff/conda-env-ml/blob/master/LICENSE>) file.
